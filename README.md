@@ -4,7 +4,6 @@ Full-stack React application built on TanStack Start, shadcn/ui, and Tailwind CS
 
 For architectural decisions, design principles, and coding conventions, refer to [frontend-stack-guidelines.md](./frontend-stack-guidelines.md).
 
-To add components to your app, run the following command:
 ---
 
 ## Prerequisites
