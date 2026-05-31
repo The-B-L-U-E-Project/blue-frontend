@@ -4,7 +4,6 @@ Full-stack React application built on TanStack Start, shadcn/ui, and Tailwind CS
 
 For architectural decisions, design principles, and coding conventions, refer to [frontend-stack-guidelines.md](./frontend-stack-guidelines.md).
 
----
 
 ## Prerequisites
 
@@ -25,7 +24,7 @@ npm install -g pnpm
 pnpm install
 ```
 
----
+
 
 ## Development
 
@@ -35,7 +34,7 @@ pnpm dev
 
 Starts the Vite dev server at [http://localhost:3000](http://localhost:3000) with HMR enabled.
 
----
+
 
 ## Build
 
@@ -50,7 +49,6 @@ Outputs a production build via Vite + Nitro. To preview the production build loc
 pnpm preview
 ```
 
----
 
 ## Other scripts
 
@@ -61,7 +59,6 @@ pnpm preview
 | `pnpm format` | Format all `.ts`, `.tsx`, `.js`, `.jsx` files with Prettier |
 | `pnpm test` | Run unit tests with Vitest |
 
----
 
 ## Stack overview
 
@@ -77,7 +74,6 @@ pnpm preview
 
 See [frontend-stack-guidelines.md](./frontend-stack-guidelines.md) for the full rationale behind each choice and the conventions the team follows.
 
----
 
 ## Adding shadcn/ui components
 
@@ -91,7 +87,6 @@ Components are copied into `src/components/ui/` and can be customized freely.
 import { Button } from "@/components/ui/button";
 ```
 
----
 
 ## Project structure
 
